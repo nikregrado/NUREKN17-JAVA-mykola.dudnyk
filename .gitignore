@@ -4,7 +4,10 @@
 .mtj.tmp/
 
 # Package Files #
+<<<<<<< HEAD
 *.jar
+=======
+>>>>>>> d899b936ce53be6f2f6323043bbcdd9a5e6247b2
 *.war
 *.ear
 
@@ -16,4 +19,13 @@ target*
 bin*
 .settings*
 .classpath
+<<<<<<< HEAD
 .project
+=======
+.project
+.idea/
+*.txt
+*.iml
+*managment*.xml
+usermanegment.properties
+>>>>>>> d899b936ce53be6f2f6323043bbcdd9a5e6247b2
