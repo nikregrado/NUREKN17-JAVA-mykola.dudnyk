@@ -3,6 +3,7 @@ package ua.nure.cs.dudnyk.usermanagement.gui;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.GridLayout;
+import java.awt.LayoutManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.Serializable;
@@ -15,9 +16,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
+import ua.nure.cs.dudnyk.usermanagement.db.DatabaseException;
 import ua.nure.cs.dudnyk.usermanagement.domain.User;
 import ua.nure.cs.dudnyk.usermanagement.util.Messages;
-import ua.nure.cs.dudnyk.usermanagement.db.DatabaseException;
 
 public class EditPanel extends JPanel implements ActionListener,Serializable {
 	

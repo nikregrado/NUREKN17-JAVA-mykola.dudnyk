@@ -1,12 +1,16 @@
 package ua.nure.cs.dudnyk.usermanagement.gui;
 
+import java.awt.BorderLayout;
+import java.awt.Component;
+import java.awt.Container;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import ua.nure.cs.dudnyk.usermanagement.db.DaoFactory;
 import ua.nure.cs.dudnyk.usermanagement.domain.User;
 import ua.nure.cs.dudnyk.usermanagement.util.Messages;
 import ua.nure.cs.dudnyk.usermanagement.db.Dao;
-import ua.nure.cs.dudnyk.usermanagement.db.DaoFactory;
-
-import javax.swing.*;
-import java.awt.*;
 
 public class MainFrame extends JFrame {
 	

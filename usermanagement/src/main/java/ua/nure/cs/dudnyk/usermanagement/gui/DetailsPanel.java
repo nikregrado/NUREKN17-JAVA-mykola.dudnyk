@@ -9,15 +9,16 @@ import java.io.Serializable;
 import java.text.DateFormat;
 import java.text.ParseException;
 
+import javax.swing.AbstractButton;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
+import ua.nure.cs.dudnyk.usermanagement.db.DatabaseException;
 import ua.nure.cs.dudnyk.usermanagement.domain.User;
 import ua.nure.cs.dudnyk.usermanagement.util.Messages;
-import ua.nure.cs.dudnyk.usermanagement.db.DatabaseException;
 
 public class DetailsPanel extends JPanel implements ActionListener,Serializable {
 	/**

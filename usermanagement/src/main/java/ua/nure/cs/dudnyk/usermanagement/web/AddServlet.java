@@ -7,9 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import ua.nure.cs.dudnyk.usermanagement.domain.User;
 import ua.nure.cs.dudnyk.usermanagement.db.DaoFactory;
 import ua.nure.cs.dudnyk.usermanagement.db.DatabaseException;
+import ua.nure.cs.dudnyk.usermanagement.domain.User;
 
 public class AddServlet extends EditServlet {
 	

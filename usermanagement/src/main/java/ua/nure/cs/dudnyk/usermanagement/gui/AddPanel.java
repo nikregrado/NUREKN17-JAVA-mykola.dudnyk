@@ -1,12 +1,14 @@
 package ua.nure.cs.dudnyk.usermanagement.gui;
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.Serializable;
 import java.text.DateFormat;
 import java.text.ParseException;
+import java.util.Date;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -14,9 +16,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
+import ua.nure.cs.dudnyk.usermanagement.db.DatabaseException;
 import ua.nure.cs.dudnyk.usermanagement.domain.User;
 import ua.nure.cs.dudnyk.usermanagement.util.Messages;
-import ua.nure.cs.dudnyk.usermanagement.db.DatabaseException;
 
 public class AddPanel extends JPanel implements ActionListener,Serializable {
 	
